@@ -14,7 +14,7 @@ import axios from 'axios'
             <div class="d-flex justify-content-between align-items-center">
               <div class="btn-group">
                 <button  type="button" class="btn btn-sm btn-outline-secondary"  data-bs-toggle="modal" data-bs-target="#exampleModal" >View</button>
-                <button type="button" id="sebet" class=" btn btn-success " @click="yaz(),getir()"> Sebete elave et</button>
+                <button type="button" id="sebet" class=" btn btn-success " @click="yaz"> Sebete elave et</button>
              
               </div>
               <small class="text-muted">{{item.price}}$</small>
